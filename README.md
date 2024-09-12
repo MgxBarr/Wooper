@@ -1,6 +1,5 @@
-# WOOPER - P1 Projet S2
-
 # Projet de traitement d'image PPM
+## WOOPER - Projet C P1 S2
 
 Programme qui permet d'effectuer différentes modifications sur des images PPM de type P3.
 
