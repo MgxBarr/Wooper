@@ -1,31 +1,30 @@
-# Projet de traitement d'image PPM
-## WOOPER - Projet C P1 S2
+# PPM image processing project
+## WOOPER - Project C P1 S2
 
-Programme qui permet d'effectuer différentes modifications sur des images PPM de type P3.
-
-
-# Qu'est-ce que le traitement d'images ? 
-
-Le traitement d'images étudie les images numériques et leurs transformations, dans le but d'améliorer leur qualité ou d'en extraire de l'information. 
-Pour comprendre le traitement d'image, il faut d'abord comprendre ce qu'est une image. 
-Les images ont de nombreux paramètres : 
-- la résolution d'acquisition et le mode de codage utilisé lors de la numérisation
-- les réglages optiques utilisés (dont la mise au point) qui déterminent par exemple la netteté de l'image
-- les conditions d'éclairage
-- le bruit de la chaîne de transmission d'image
-
-Chaque image a un certain nombre de pixels, qui est une combinaison de couleurs (rouge, bleu et vert). La manipulation de ces paramètres nous permettent de traiter l'image, c'est à dire de la modifier. 
-Par exemple la binariser, faire une rotation, un effet miroir, modifier la couleur des pixels etc.
+Program for making various modifications to PPM P3 images.
 
 
-# Utilisation
+# What is image processing? 
 
-Téléchargez le dossier, déplacez vous dedans, compilez avec make clean et make, puis executez le programme avec ./img
+Image processing studies digital images and their transformations, with the aim of improving their quality or extracting information from them. 
+To understand image processing, you first need to understand what an image is. 
+Images have many parameters: 
+- acquisition resolution and the coding mode used during digitization
+- the optical settings used (including focus), which determine, for example, image sharpness
+- lighting conditions
+- image transmission chain noise
 
-Vous pouvez utiliser différentes commandes après le ./img, pour avoir l'aide du programme, écrivez ./img -h
+Each image has a certain number of pixels, which is a combination of colors (red, blue and green). By manipulating these parameters, we can process the image, i.e. modify it. 
+For example, binarize, rotate, mirror, change pixel color, etc.
 
+
+# Use
+
+Download the folder, move inside, compile with make clean and make, then run the program with ./img.
+
+You can use various commands after ./img. For program help, write ./img -h
     
-# Exemples de commandes :
+# Example of prompts :
 
 ./img -i bender.ppm -o bendergris.ppm -g
 
